@@ -17,27 +17,44 @@ body {
     padding-top: 20px;
     color: #472827;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
     div.text {
       display: none;
     }
-  }
+}
+.dropdown {
+    padding-top: 8px;
+    padding-left: 30px;
+}
+@media screen and (min-width: 500px) {
+    div.dropdown {
+      display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    div.navtab {
+      display: none;
+    }
+}
 .navtab {
     height: 40px;
     background-color:white;
     color: black;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 .nav-link {
     color: black;
     margin-left: 16px;
-    padding: 5px;
+    padding: 10px 5px 5px 10px;
 }
 .navtab .nav-item.show .nav-link, .navtab .nav-link.active {
     color: white;
-    background-color:navy;
-    border-color: navy;
+    background-color:#476276;
+    border-color: #476276;
+}
+.temp {
+    height: 400px;
 }
 .carousel {
     margin: 30px;
@@ -48,6 +65,6 @@ body {
     height: 45px;
     background-color: white;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: x-small;
-    vertical-align: bottom;
+    font-size: small;
+    padding: 13px 0px 0px 30px;
 }
